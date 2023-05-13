@@ -1,0 +1,158 @@
+body {
+    font-size: 20px;
+    text-align: center;
+    background-color: #F6F1F1;
+    margin: 0;
+    font-family: Helvetica;
+
+}
+.header {
+    text-align: center;
+    background-color: #DBDFEA ; 
+    padding: 32px;
+    border-bottom: 4px solid #FEFF86;
+
+}
+h1 {
+    font-size: 40px;
+    margin-bottom: 20;
+    color: #19A7CE;
+    text-align: center;
+}
+
+h2{
+    color: #146C94;
+    
+}
+.menu {
+    list-style: none;
+}
+input {
+    font-size: 16px;
+}
+
+a{
+    color: #9BA4B5;
+    text-decoration: none;
+
+}
+a:visited {
+    color: #393646;
+}
+#main {
+    margin: 20px auto;
+    padding-top: 15px;
+    background: white;
+    border-radius: 15%;
+    width: 80%;
+    max-width: 1000px;
+    height: fit-content;
+}
+ul {
+    max-width: 550px;
+    margin: 0 auto 50px auto;
+    text-align: center;
+    line-height: 1.6;
+    
+}
+
+li {
+    margin: 16px 0;
+}
+li > a {
+    text-decoration: none;
+}
+
+
+.info {
+    padding: 10px 109px 0 5px;
+}
+input {
+    font-size: 16px;
+}
+.info label, .info input {
+    display: inline-flex;
+    flex-direction: column ;
+    
+}
+.info input {
+    width: 50%;
+    text-align: left;
+    border: 2px solid #F6F1F1;
+    background-color: #F6F1F1;
+}
+.info label {
+    width: 23%;
+    min-width: 55px;
+    text-align: right; 
+}
+input, select {
+    margin: 10px 0 0 0;
+    min-height: 1.2em;
+
+}
+select {
+    width: 50%;
+    text-align: left;
+    padding: 10px 0 0 12px;
+    min-width: 55px;
+    border: 1px solid #F6F1F1;
+    font-size: 16px;
+    color: #146C94;
+}
+
+
+
+input[type="submit"],
+input[type="button"] {
+    display: block;
+    margin: 20px auto;
+    width: 180px;
+    height: 25px;
+    padding: 0px;
+    font-size: 15px;
+    background: #DBDFEA;
+    border: 1px solid #DBDFEA;
+    border-radius: 5%;
+    color:  #146C94;
+    text-align: center;
+
+}
+input[type="submit"]:hover,
+input[type="button"]:hover {
+    background-color: #146C94;
+    cursor: pointer;
+    color: #DBDFEA;
+}
+.boton-container{
+    display: flex;
+    flex-direction: row-reverse;
+}
+input[type="submit"] {
+    margin-top: 40px !important;
+}
+table {
+    border-collapse: collapse;
+    width: 80%;
+    margin: auto auto;
+    font-size: 16px;
+}
+
+th,
+td {
+    padding: 10px;
+    text-align: center;
+    border: 1px solid #146C94;
+    background-color: #F0F0F0;
+    color: #146C94;
+
+}
+
+td {
+    color: #394867;
+}
+
+th {
+    background-color: #f2f2f2;
+    font-weight: bold;
+}
